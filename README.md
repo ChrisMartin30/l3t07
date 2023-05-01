@@ -6,5 +6,5 @@ The Task from an earlier stage was to create a list of jokes in a python file, t
 
 ## Further improvements that could be made
 - [X] Add more jokes to the list (*more jokes can always be added*)
-- [ ] Rather than having to run the program each time to get a random joke, create a "press X to see another, press Y to quit"
+- [X] Rather than having to run the program each time to get a random joke, create a "press X to see another, press Y to quit"
 
