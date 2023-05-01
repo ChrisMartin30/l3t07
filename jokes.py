@@ -14,6 +14,15 @@ jokes = ["What's brown and sticky?\nA stick.",
     "A magician was walking down the street. \nThen he turned into a grocery store.",
     "Why do scuba divers fall backwards into the water? \nBecause if they fell forwards they'd still be in the boat." ]
 
+
 # Use random.choice() function, and print result.
+# Create a while loop to keep showing until user indicates they wish to quit. 
 print("Random Joke Generator\n")
-print(random.choice(jokes))
+print("\n"+random.choice(jokes),"\n")
+loop = False
+while loop == False:
+    repeat = input("Would you like to see another (Y/N)?  ").lower()
+    if repeat == "y":
+        print("\n"+random.choice(jokes),"\n")
+    else:
+        loop = True
